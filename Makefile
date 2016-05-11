@@ -1,7 +1,7 @@
 CXX        = g++
 CFLAGS     = -Wall -O2 -std=c++0x -Wno-sign-compare
 LDFLAGS    =
-BOOST_PATH = /usr
+BOOST_PATH = C:/MinGW
 INCLUDES   = -I $(BOOST_PATH)/include/
 LIBS       = -L $(BOOST_PATH)/lib -lboost_regex -lboost_program_options
 TARGET     = qm

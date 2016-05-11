@@ -1,1 +1,3 @@
-f(A, B, C, D) = ~AB~C + A~B~C + AB~C~D + A~BC~D + BC~D + ~ABCD + A~BCD + ~A~BD
+f(A, B, C, D, E) = ~A~B~C~D~E + ~A~B~C~DE + ~A~BC~D~E + ~A~BC~DE + ~AB~C~D~E + ~AB~C~DE + ~ABC~D~E + ~ABC~DE + AB~C~D~E + AB~C~DE + ABC~D~E + ABC~DE
+
+f(A, B, C, D, E) = ~A~B~C~D~E + ~A~B~C~DE + ~A~BC~D~E + ~A~BC~DE + ~AB~C~D~E + ~AB~C~DE + ~ABC~D~E + ~ABC~DE + AB~C~D~E + AB~C~DE + ABC~D~E + ABC~DE
